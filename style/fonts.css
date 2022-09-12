@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'LeagueSpartan-SemiBold';
+    font-weight: 600;
+    src: url('../fonts/LeagueSpartan-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Jost-Bold';
+    src: url('../fonts/Jost-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Jost-Regular';
+    font-weight: 400;
+    src: url('../fonts/Jost-Regular.ttf');
+}

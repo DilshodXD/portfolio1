@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio XD</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="img/XD.png">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="hea1der__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <a href="#!" class="header__top-name">
+                        <p>Dilshod</p>
+                        <p>XD</p>
+                    </a>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__link" href="#home">Bosh sahifa</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#about">Men haqimda</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#portfolio">Ishlar</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#skills">Iqtidorlarim</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#contact">Bog'lanish</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="header__main" id="home">
+            <div class="container">
+                <div class="header__main-inner">
+                    <div class="header__main-left">
+                        <div class="header__main-box">
+                            <h1 class="header__main-title">Salom meni ismim Dilshod</h1>
+                            <p class="header__main-text">Men DASTURCHI man</p>
+                            <p class="header__main-info">Meni maqsadim menga bilim ko'nikmalarimdan foydalanishga imkon
+                                beradigan,
+                                qiyin, foydali martabani ta'minlaydigan va professional o'sishga yordam beradigan
+                                kompaniyaning bir qismi bo'lish.</p>
+                        </div>
+                        <div class="header__main-btns">
+                            <a href="#portfolio" class="header__main-btn">Meni ishlrimni ko'rish</a>
+                            <a href="#!" class="header__main-btn">CV yuklab olish</a>
+                        </div>
+                    </div>
+                    <div class="header__main-right"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="wave-box">
+            <svg viewbox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <path id='sineWave' fill="#3A3A3A" fill-opacity="1"
+                        d="M0,160 C320,300,420,300,740,160 C1060,20,1120,20,1440,160 V0 H0" />
+                </defs>
+                <use class="wave" href="#sineWave" />
+                <use class="wave" x="-100%" href="#sineWave" />
+            </svg>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-inner">
+                    <h3 class="about__title">Men haqimda</h3>
+                    <div class="about__boxs">
+                        <div class="about__box">
+                            <div class="about__img">
+                                <img src="img/school.png" alt="">
+                            </div>
+                            <div class="about__text">
+                                <h4 class="about__text-title">TALIM</h4>
+                                <p class="about__text-subtitle">Chinoz tumani 27-manktabda <br>2010-yildan 2022-yilga
+                                    qadar o'qshni tamomladim va
+                                    tamomladim <br><br>2021-yil 28-noyabr kunidan 2022-yil 14-avgustga qadar PROWEB
+                                    o'quv markazida 9 oy taqsil oldim
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__box">
+                            <div class="about__img">
+                                <img src="img/code.png" alt="">
+                            </div>
+                            <div class="about__text">
+                                <h4 class="about__text-title">ISh</h4>
+                                <p class="about__text-subtitle">
+                                    Ishlagan joylarim hozirda mavjud emas
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__box">
+                            <div class="about__img">
+                                <img src="img/music.png" alt="">
+                            </div>
+                            <div class="about__text">
+                                <h4 class="about__text-title">HOBBIYLAR</h4>
+                                <p class="about__text-subtitle">Musiqa, ijtimoiy tarmoqlar, o'yinlar, workout va
+                                    kompyuter tuzatish</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="portfolio-inner">
+
+                    <h3 class="portfolio__title">Ish to'plamlarim</h3>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+                    <script>
+                        var swiper = new Swiper(".mySwiper", {
+                            slidesPerView: 1,
+                            spaceBetween: 30,
+                            loop: true,
+                            pagination: {
+                                el: ".swiper-pagination",
+                                clickable: true,
+                            },
+                            navigation: {
+                                nextEl: ".swiper-button-next",
+                                prevEl: ".swiper-button-prev",
+                            },
+                        });
+                    </script>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="skills-inner">
+                    <h3 class="skills__title">Iqtidorlarim</h3>
+                    <div class="skills__boxs">
+                        <div class="skills__box">
+                            <div class="skills__box-skil">
+                                <div class="skills__box-outher">
+                                    <div class="skills__box-inner">
+                                        <p class="skills__box-procent">90%</p>
+                                    </div>
+                                </div>
+                                <svg class="circle-container" viewBox="2 -2 28 36" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="circle-container__background" r="15" cx="16" cy="16"></circle>
+                                    <circle class="circle-container__progress" style="stroke-dashoffset: 10" r="15"
+                                        cx="16" cy="16"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="skills__name">HTML5</h4>
+                        </div>
+                        <div class="skills__box">
+                            <div class="skills__box-skil">
+                                <div class="skills__box-outher">
+                                    <div class="skills__box-inner">
+                                        <p class="skills__box-procent">85%</p>
+                                    </div>
+                                </div>
+                                <svg class="circle-container" viewBox="2 -2 28 36" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="circle-container__background" r="15" cx="16" cy="16"></circle>
+                                    <circle class="circle-container__progress" style="stroke-dashoffset: 15" r="15"
+                                        cx="16" cy="16"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="skills__name">CSS3</h4>
+                        </div>
+                        <div class="skills__box">
+                            <div class="skills__box-skil">
+                                <div class="skills__box-outher">
+                                    <div class="skills__box-inner">
+                                        <p class="skills__box-procent">60%</p>
+                                    </div>
+                                </div>
+                                <svg class="circle-container" viewBox="2 -2 28 36" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="circle-container__background" r="15" cx="16" cy="16"></circle>
+                                    <circle class="circle-container__progress" style="stroke-dashoffset: 40" r="15"
+                                        cx="16" cy="16"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="skills__name">Java Script</h4>
+                        </div>
+                        <div class="skills__box">
+                            <div class="skills__box-skil">
+                                <div class="skills__box-outher">
+                                    <div class="skills__box-inner">
+                                        <p class="skills__box-procent">80%</p>
+                                    </div>
+                                </div>
+                                <svg class="circle-container" viewBox="2 -2 28 36" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="circle-container__background" r="15" cx="16" cy="16"></circle>
+                                    <circle class="circle-container__progress" style="stroke-dashoffset: 20" r="15"
+                                        cx="16" cy="16"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="skills__name">Bootstrap</h4>
+                        </div>
+                        <div class="skills__box">
+                            <div class="skills__box-skil">
+                                <div class="skills__box-outher">
+                                    <div class="skills__box-inner">
+                                        <p class="skills__box-procent">60%</p>
+                                    </div>
+                                </div>
+                                <svg class="circle-container" viewBox="2 -2 28 36" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="circle-container__background" r="15" cx="16" cy="16"></circle>
+                                    <circle class="circle-container__progress" style="stroke-dashoffset: 40" r="15"
+                                        cx="16" cy="16"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="skills__name">Git</h4>
+                        </div>
+                        <div class="skills__box">
+                            <div class="skills__box-skil">
+                                <div class="skills__box-outher">
+                                    <div class="skills__box-inner">
+                                        <p class="skills__box-procent">70%</p>
+                                    </div>
+                                </div>
+                                <svg class="circle-container" viewBox="2 -2 28 36" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="circle-container__background" r="15" cx="16" cy="16"></circle>
+                                    <circle class="circle-container__progress" style="stroke-dashoffset: 30" r="15"
+                                        cx="16" cy="16"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="skills__name">Sass</h4>
+                        </div>
+                        <div class="skills__box">
+                            <div class="skills__box-skil">
+                                <div class="skills__box-outher">
+                                    <div class="skills__box-inner">
+                                        <p class="skills__box-procent">70%</p>
+                                    </div>
+                                </div>
+                                <svg class="circle-container" viewBox="2 -2 28 36" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="circle-container__background" r="15" cx="16" cy="16"></circle>
+                                    <circle class="circle-container__progress" style="stroke-dashoffset: 30" r="15"
+                                        cx="16" cy="16"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="skills__name">WordPress</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="other">
+            <div class="container">
+                <div class="other__inner">
+                    <h3 class="other__title">My Other Works</h3>
+                    <div class="other__projects">
+                        <div class="other__project"></div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="map">
+            <iframe class="map-inn"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d752.6164975041082!2d68.937551829236!3d41.01505999870625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x61549469b3ecb607!2zNDHCsDAwJzU0LjIiTiA2OMKwNTYnMTcuMiJF!5e0!3m2!1sru!2s!4v1659657144750!5m2!1sru!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__head">
+                    <div class="footer__logo">
+                        <img src="./img/XD.png" class="footer__logo-img">
+                        <div class="header__top-name">
+                            <p>Dilshod</p>
+                            <p>XD</p>
+                        </div>
+                    </div>
+                    <div class="footer__quickllnks">
+                        <h4 class="footer__titles">Havolalar</h4>
+                        <div class="footer__quickllnks-text">
+                            <a href="#home" class="footer__quickllnks-subtitle">Bosh sahifa</a>
+                            <a href="#about" class="footer__quickllnks-subtitle">Men haqimda</a>
+                            <a href="#portfolio" class="footer__quickllnks-subtitle">Ishlar</a>
+                            <a href="#skills" class="footer__quickllnks-subtitle">Iqtidorlarim</a>
+                            <a href="#contact" class="footer__quickllnks-subtitle">Bog'lanish</a>
+                        </div>
+                    </div>
+                    <div class="footer__contact">
+                        <h4 class="footer__titles">CONTACT ME</h4>
+                        <div class="footer__info-text">
+                            <span class="footer__info-text-span">Email:</span>
+                            <p href="mailto:dilshodxdxd@gmail.com">dilshodxdxd@gmail.com</p>
+                        </div>
+                        <div class="footer__info-text">
+                            <span class="footer__info-text-span">Mobile Number:</span> 
+                            <a href="tel:+998950186355">+998 95 018 63 55</a>
+                        </div>
+                    </div>
+                    <div class="footer__location">
+                        <h4 class="footer__titles">LOCATION</h4>
+                        <p class="footer__info-text2">
+                            <span class="footer__info-text-span">Doimiy manzil:</span> 
+                            Toshkent viloyati chinoz tumani Eski Toshkent qishlog'i Hamza 3-uy
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__social">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+
+</html>
